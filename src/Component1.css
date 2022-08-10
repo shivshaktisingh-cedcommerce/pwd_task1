@@ -14,6 +14,7 @@
 }
 #register_form{
     width:80%;
+    position:relative;
     background-color: #B7C6E2;
     margin:auto;
     margin-top:10%;
@@ -23,12 +24,43 @@
     /* margin-top:5%; */
 
 }
-#inner_div_register_form{
+
+#login_btn{
+  position:absolute;
+  min-height:3.4vw;
+  width:10%;
+  top:0.2vw;
+  left:90%;
+  font-size:2vw;
+  font-weight:bold;
+
+}
+
+#register_btn1{
+  position:absolute;
+  min-height:3.4vw;
+  width:13%;
+  top:0.2vw;
+  left:87%;
+  font-size:2vw;
+  font-weight:bold;
+  display:none;
+
+}
+#inner_div_register_form1{
     width:80%;
     padding:4vw;
     margin:4vw;
     position:relative;
     border:2px solid white;
+}
+#inner_div_register_form2{
+  width:80%;
+  padding:4vw;
+  margin:4vw;
+  position:relative;
+  border:2px solid white;
+  display:none;
 }
 #register_now{
     width:30%;
@@ -127,6 +159,16 @@ tr{
       border-radius:5px;
       background-color: #2196F3;
       font-size:2vw;
+  }
+
+  #login_user_btn{
+    width:20%;
+    min-height:3vw;
+    margin-top:5%;
+   
+    border-radius:5px;
+    background-color: #2196F3;
+    font-size:2vw;
   }
 
   @media only screen and (max-width: 1000px) {
